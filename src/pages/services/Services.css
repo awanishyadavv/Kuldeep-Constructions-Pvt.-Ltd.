@@ -1,0 +1,30 @@
+.services-container{
+    height: fit-content;
+    width: 100%;
+}
+.services{
+    height: 27rem;
+    gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--color-bg-variant);
+}
+.services p{
+    max-width: 70%;
+    text-align: center;
+}
+.services-rows{
+    height: 25rem;
+    display: flex;
+}
+.row-content{
+    width: 50%;
+    /* border: 1px solid blue; */
+    background-color: var(--color-bg-mask);
+}
+.row-image{
+    /* border: 1px solid blue; */
+    width: 50%;
+}

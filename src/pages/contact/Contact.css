@@ -1,0 +1,46 @@
+.contact-container{
+    background-image: url(../../asstes/auto-cad-design.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contact-container-mask{
+    background: var(--color-bg-mask);
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.contact-engineer{
+    /* border: 1px solid red; */
+    margin-top: 12rem;
+    display: flex;
+    justify-content: center;
+}
+
+.contact-forms{
+    margin-top: 12rem;
+    width: 30rem;
+}
+
+
+.contact-form{
+    display: flex;   
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+}
+
+.contact-input{
+    width: 100%;
+    padding: 1.5rem;
+    border-radius: 0.5rem;
+    background: transparent;
+    border: 2px solid var(--color-primary);
+    resize: none;
+    color: var(--color-light);
+}
+

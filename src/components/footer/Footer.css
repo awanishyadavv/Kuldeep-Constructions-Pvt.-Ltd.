@@ -1,0 +1,22 @@
+.footer-container{
+    height: 8rem;
+    /* border: 1px solid red; */
+    max-width: 100%;
+    background-color: var(--color-bg-variant);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    padding: 0 3rem;
+}
+.footer-left{
+    max-width: 80%;
+}
+
+.footer-image{
+    display: flex;
+    gap: 3rem;
+}
+.footer-image a img{
+    height: 2rem;
+}

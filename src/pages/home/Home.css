@@ -1,0 +1,90 @@
+.container-home {
+    height: fit-content;
+    width: 100%;
+  }
+
+
+  .landing {
+    background-image: url(../../asstes/background-construction.jpg);
+    height: 100vh;
+    overflow: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+  }
+  
+  .mask {
+    background-color: var(--color-bg-mask);
+    opacity: 80%;
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .home-content {
+    font-size: 2.5rem;
+    color: var(--color-primary);
+    margin-top: 15%;
+    margin-left: 4rem;
+  }
+  
+  .home-btn {
+    margin-left: 4rem;
+    margin-top: 5%;
+  }
+  
+  /* Design Value Css */
+  .DesignValue {
+    height: 100vh;
+    display: block;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .DesignValue-section {
+    height: 50%;
+    width: 100%;
+    display: flex;
+  }
+  
+  .DesignValue-item {
+    width: 50%;
+    height: 100%;
+  }
+  
+  .left-content {
+    background-color: var(--color-bg-mask);
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    color: var(--color-light);
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .right-image {
+    background-image: url(./../../asstes/background-value.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .left-content-bottom {
+    padding: 5rem 2rem;
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--color-light);
+  }
+  
+  .right-content-bottom {
+    padding: 5rem 2rem;
+    font-size: 1rem;
+    text-align: justify;
+    color: var(--color-light);
+  }
+  
+  .value-btn {
+    margin: 3rem 0rem;
+  }

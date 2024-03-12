@@ -1,0 +1,10 @@
+.under-maintenance{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.under-maintenance-image{
+    margin-top: 7rem;
+    height: 80%;
+}

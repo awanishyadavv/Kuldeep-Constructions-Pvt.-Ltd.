@@ -1,0 +1,26 @@
+.project-section{
+    background-image: url(../../asstes/home-project.png);
+    height: 80vh;
+    overflow: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .project-section-content{
+    max-width: 55%;
+    /* border: 1px solid red; */
+    margin-top: 15%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .project-section-content p{
+    background-color: var(--color-bg);
+    color: var(--color-primary);
+    border-radius: 5px;
+    padding: 2rem;
+  }
