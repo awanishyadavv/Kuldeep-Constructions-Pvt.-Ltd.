@@ -57,3 +57,15 @@ body{
     border-color: transparent;
 }
 
+/* ==================MEDIA QUERIES(MEDIUM DEVICE)================ */
+
+@media screen and (max-width: 1024px){
+
+}
+
+
+/* ==================MEDIA QUERIES(SMALL DEVICE)================ */
+
+@media screen and (max-width: 600px){
+
+}

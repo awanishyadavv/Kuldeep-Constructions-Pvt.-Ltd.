@@ -1,0 +1,137 @@
+.project-page-container{
+   width: 100%;
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-bottom: 3rem;
+}
+.projects-heading{
+    color: var(--color-light);
+    padding: 1.5rem;
+    margin-top: 7rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 0.5rem;
+    text-align: center;
+}
+
+.project{
+    border: 1px solid green;
+    width: 30rem;
+    height: 30rem;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 5px;
+}
+
+.project-container {
+    width: 80%;
+    display: flex;
+    padding: 2rem;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    /* border: 1px solid red; */
+  }
+  
+  .project-card-container {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    background-image: url('../../asstes/services/building\ Construction.jpg');
+  }
+  
+  .project-card-image {
+    height: 20rem;
+    width: 20rem;
+    position: relative;
+    max-width: 100%;
+    cursor: pointer;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+  }
+
+.overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: var(--color-bg-mask);
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    transition: .5s ease;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+.project-card-image:hover .overlay{
+    height: 20%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.image1{
+  background-image: url(../../asstes/projects/wallprecast.jpg);
+}
+.image2{
+  background-image: url(../../asstes/projects/utilitystation.jpg);
+}
+.image3{
+  background-image: url(../../asstes/projects/elevatedwaterreservior.jpg);
+}
+.image4{
+  background-image: url(../../asstes/projects/Sewer.jpg);
+}
+.image5{
+  background-image: url(../../asstes/projects/buildingConstruction.jpg);
+}
+.image6{
+  background-image: url(../../asstes/projects/Embankment&Granularsubbase.jpg);
+}
+.image7{
+  background-image: url(../../asstes/projects/roadconstruction.jpg);
+}
+.image8{
+  background-image: url(../../asstes/projects/pipelineExcavation.jpg);
+}
+
+
+
+/* ==================MEDIA QUERIES(MEDIUM DEVICE)================ */
+
+@media screen and (max-width: 1024px){
+  .project-container{
+    width: 90%;
+  }
+}
+
+
+/* ==================MEDIA QUERIES(SMALL DEVICE)================ */
+
+@media screen and (max-width: 600px){
+  .projects-heading{
+    padding: 0.5rem;
+    margin-top: 5rem;
+  }
+  .project-container{
+    width: 100%;
+  }
+  .project-card-image .overlay{
+    height: 20%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+  .project-card-image:hover .overlay{
+    height: 0;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+  }
+}

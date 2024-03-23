@@ -27,8 +27,8 @@ const Home = () => {
         <div className="mask">
           <div className="home-content">
             <p>
-              Transform your dream into reality with- <br/> our expert guidance.<br/> Build
-              not just a house, but the perfect sanctuary <br/> you've always envisioned
+              Transform your dream into reality with our expert guidance.<br/> Build
+              not just a house, but the perfect sanctuary you've always envisioned
             </p>
           </div>
           <div className="btn btn-primary home-btn">
@@ -41,7 +41,7 @@ const Home = () => {
           <div className="DesignValue-item left-content"><p>Design as a value</p></div>
           <div className="DesignValue-item right-image"></div>
         </div>
-        <div className="DesignValue-section">
+        <div className="DesignValue-section DesignValue-section-bottom ">
           <div className="DesignValue-item left-content-bottom">
             <p>Architectural text are used by architects in their designs and are all uniform block letters that are easy to read. This type of lettering was introduced by architects so long ago. The font chosen by the architect in his/her project plan an vital role.</p>
           </div>
@@ -65,6 +65,6 @@ const Home = () => {
     </div>
     </>
   );
-};
+}; 
 
 export default Home;
