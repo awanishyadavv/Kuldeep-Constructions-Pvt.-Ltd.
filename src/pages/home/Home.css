@@ -7,12 +7,10 @@
   .landing {
     background-image: url(../../asstes/background-construction.jpg);
     height: 100vh;
-    overflow: auto;
     width: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    object-fit: cover;
   }
   
   .mask {
@@ -28,6 +26,7 @@
     color: var(--color-primary);
     margin-top: 15%;
     margin-left: 4rem;
+    max-width: 70%;
   }
   
   .home-btn {
@@ -47,6 +46,7 @@
     height: 50%;
     width: 100%;
     display: flex;
+    padding: 2rem;
   }
   
   .DesignValue-item {
@@ -65,7 +65,7 @@
   }
   
   .right-image {
-    background-image: url(./../../asstes/background-value.png);
+    background-image: url(./../../asstes/designasvalue.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -88,3 +88,97 @@
   .value-btn {
     margin: 3rem 0rem;
   }
+
+
+  /* ==================MEDIA QUERIES(MEDIUM DEVICE)================ */
+
+@media screen and (max-width: 1024px){
+  .landing{
+    height: 50vh;
+  }
+  .mask{
+    height: 50vh;
+  }
+  .home-content{
+    font-size: 1.5rem;
+    margin-top: 25%;
+    margin-left: 4rem;
+  }
+  .DesignValue {
+    height: 70vh;
+  }
+  .DesignValue-section {
+    padding: 1rem;
+  }
+  .left-content {
+    text-align: center;
+  }
+  .left-content p{
+    font-size: 3rem;
+  }
+  .left-content-bottom {
+    padding: 1rem;
+  }
+  .right-content-bottom {
+    padding: 1rem;
+  }
+  .value-btn {
+    margin: 1.2rem 0rem;
+  }
+}
+
+
+/* ==================MEDIA QUERIES(SMALL DEVICE)================ */
+
+@media screen and (max-width: 600px){
+  .landing{
+    background-image: none;
+    height: 50vh;
+  }
+  .mask{
+    max-height: 50vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+  }
+  .home-content{
+    font-size: 1rem;
+    margin-left: 1.2rem;
+  }
+  .home-content {
+    font-size: 1rem;
+  }
+  .home-btn {
+    margin-left: 1.2rem;
+    margin-top: 5%;
+  }
+  .DesignValue-section {
+    padding: 1rem 0.2rem;
+  }
+  .left-content {
+    text-align: center;
+  }
+  .left-content p{
+    padding: 1rem;
+    font-size: 2rem;
+  }
+  .DesignValue-section-bottom{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+  }
+  .left-content-bottom {
+    width: 100%;
+    padding: 0rem 1rem;
+  }
+  .right-content-bottom {
+    padding: 0rem 1rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+  }
+
+}

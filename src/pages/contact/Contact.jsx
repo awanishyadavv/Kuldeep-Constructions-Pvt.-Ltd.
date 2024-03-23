@@ -24,6 +24,7 @@ const Contact = () => {
 
   return (
     <div className='contact-container'>
+      <div className='Contact-heading'><h1>Contact us</h1></div>
       <div className='contact-container-mask'>
         <div className='contact-engineer'> <img src={LadyEngineer} alt="" /></div>
         <div className='contact-forms'> 
@@ -36,8 +37,8 @@ const Contact = () => {
         </form>
         </div>
       </div>
-      <div>
-        <Footer/>
+      <div className='contact-footer'>
+        <Footer/> 
       </div>
     </div>
   )

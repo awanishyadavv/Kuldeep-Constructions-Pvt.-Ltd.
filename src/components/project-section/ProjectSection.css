@@ -1,16 +1,15 @@
 .project-section{
     background-image: url(../../asstes/home-project.png);
     height: 80vh;
-    overflow: auto;
+    overflow: hidden;
     width: 100%;
-    background-position: center;
+    background-position:top;
     background-size: cover;
     background-repeat: no-repeat;
   }
 
   .project-section-content{
     max-width: 55%;
-    /* border: 1px solid red; */
     margin-top: 15%;
     margin-left: 40%;
     display: flex;
@@ -24,3 +23,35 @@
     border-radius: 5px;
     padding: 2rem;
   }
+
+  /* ==================MEDIA QUERIES(MEDIUM DEVICE)================ */
+
+@media screen and (max-width: 1024px){
+  .project-section{
+    height: 60vh;
+    width: 100%;
+  }
+}
+
+
+/* ==================MEDIA QUERIES(SMALL DEVICE)================ */
+
+@media screen and (max-width: 600px){
+  .project-section{
+    height: 34vh;
+    width: 100%;
+    background-image: none;
+  }
+  .project-section-content{
+    max-width: 100%;
+    margin-top:0;
+    margin-left: 0;
+  }
+  
+  .project-section-content p{
+    border-radius: 5px;
+    padding: 1rem;
+    text-align: justify;
+  }
+  
+}
